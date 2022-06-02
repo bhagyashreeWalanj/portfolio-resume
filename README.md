@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Bhagyashree Walanj - Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Technologies Used:
+
+- [website design](https://www.youtube.com/watch?v=G-Cr00UYokU&t=5s)
+- [React-Icons](https://react-icons.github.io/react-icons/) for icons
+- [SASS](https://sass-lang.com/documentation/) for styling
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [emailjs-com](https://www.emailjs.com/) to send free email
+
+## Deployed on Netlify
+
+Please check link mentioned
 
 ## Available Scripts
 
