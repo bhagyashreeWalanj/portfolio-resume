@@ -19,5 +19,12 @@ export const Portfolios=[
         title: 'Quiz App',
         githubLink:'https://github.com/bhagyashreeWalanj/quiz-app-friends',
         demoLink: 'https://friends-trivia.netlify.app/'
+    },
+    {
+        id: 4,
+        image: 'img/weather-app.png',
+        title: 'Weather App',
+        githubLink:'https://github.com/bhagyashreeWalanj/typescript-weather-app',
+        demoLink: 'https://bhagyashree-weather-app.herokuapp.com/'
     }
 ]

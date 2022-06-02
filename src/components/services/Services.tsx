@@ -13,7 +13,7 @@ const Services = () => {
           <div className={styles.service__head}>
             <h4>Autoplant Systems Pvt Ltd</h4>
             <h3>Senior Software Developer</h3>
-            <span>August 2020 - Feb 2021, Navi Mumbai</span>
+            <span>August 2019 - Feb 2021, Navi Mumbai</span>
           </div>
 
           <ul className={styles.servicesList}>
@@ -59,7 +59,7 @@ const Services = () => {
           <div className={styles.service__head}>
             <h4>Novire Technologies Pvt Ltd</h4>
             <h3>Senior Software Developer</h3>
-            <span>Sept 2014 - August 2021, Navi Mumbai</span>
+            <span>Sept 2014 - August 2019, Navi Mumbai</span>
           </div>
 
           <ul className={styles.servicesList}>

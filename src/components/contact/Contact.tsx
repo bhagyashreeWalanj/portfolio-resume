@@ -1,29 +1,28 @@
 import React from 'react'
 import emailjs from '@emailjs/browser'
 import styles from './contact.module.scss'
-import { MdOutlineEmail } from 'react-icons/md'
-import { BsWhatsapp } from 'react-icons/bs'
+import { MdOutlineEmail, MdWifiCalling3 } from 'react-icons/md'
 
 const Contact = () => {
   const sendEmail = (e: any) => {
     e.preventDefault()
     e.target.reset()
-    // emailjs
-    //   .sendForm(
-    //     'service_p757uia',
-    //     'template_y97s915',
-    //     e.target,
-    //     '7B5noG2_Za6s_ui3S',
-    //   )
-    //   .then(
-    //     (result) => {
-    //       e.target.reset()
-    //       console.log(result.text)
-    //     },
-    //     (error) => {
-    //       console.log(error.text)
-    //     },
-    //   )
+    emailjs
+      .sendForm(
+        'service_p757uia',
+        'template_y97s915',
+        e.target,
+        '7B5noG2_Za6s_ui3S',
+      )
+      .then(
+        (result) => {
+          e.target.reset()
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        },
+      )
   }
 
   return (
@@ -36,13 +35,13 @@ const Contact = () => {
           <article className={styles.contact__option}>
             <MdOutlineEmail className={styles.contact__option_icon} />
             <h4>EMAIL</h4>
-            <h5>wbhagyashree06@gmail.com</h5>
+            <h5>shree.6490@gmail.com</h5>
             <a href="mailto:wbhagyashree06@gmail.com" target="__blank">
               Send a Message
             </a>
           </article>
           <article className={styles.contact__option}>
-            <BsWhatsapp className={styles.contact__option_icon} />
+            <MdWifiCalling3 className={styles.contact__option_icon} />
             <h4>Call</h4>
             <h5>+49 162 4199690</h5>
             {/* <a
