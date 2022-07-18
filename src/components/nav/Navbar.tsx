@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navContainer}>
-      <a href="#" className={activeNav === '#' ? 'active' : ''}>
+      <a href="#home" className={activeNav === '#' ? 'active' : ''}>
         <AiOutlineHome />
       </a>
       <a
