@@ -1,9 +1,7 @@
-import classNames from 'classnames'
 import React from 'react'
 import styles from './about.module.scss'
 import mePhoto from '../../assets/aboutMe.jpeg'
 import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {

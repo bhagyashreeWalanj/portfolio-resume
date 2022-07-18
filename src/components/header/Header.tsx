@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './header.module.scss'
-import classnames from 'classnames'
 import CTA from './CTA'
-import portphoto from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
