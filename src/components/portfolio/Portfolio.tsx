@@ -9,8 +9,8 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className={styles.portfolio__container}>
-        {Portfolios.map((item: any) => {
-          return (
+        {Portfolios.map((item: any) =>
+          item.isPublished ? (
             <article className={styles.portfolio_item} key={item.id}>
               <div className={styles.portfolio_item_image}>
                 <img
@@ -29,8 +29,10 @@ const Portfolio = () => {
                 </a>
               </div>
             </article>
-          )
-        })}
+          ) : (
+            ''
+          ),
+        )}
       </div>
     </section>
   )
