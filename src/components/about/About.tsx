@@ -20,7 +20,7 @@ const About = () => {
             <article className={styles.about__card}>
               <FaAward className={styles.about__icon} />
               <h4>Experience</h4>
-              <small>6+ Years Working</small>
+              <small>7+ Years Working</small>
             </article>
             {/* <article className={styles.about__card}>
               <FiUsers className={styles.about__icon} />
@@ -34,7 +34,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            A Frontend Software Engineer with over 6+ years of experience.
+            A Frontend Software Engineer with over 7+ years of experience.
             <br />
             <b>
               I have maintained, developed and launched multiple projects from

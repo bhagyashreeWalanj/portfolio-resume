@@ -4,11 +4,7 @@ import styles from './header.module.scss'
 const CTA = () => {
   return (
     <div className={styles.cta}>
-      <a
-        href="./Bhagyashree-Resume.pdf"
-        download
-        className={styles.btn}
-      >
+      <a href="./Bhagyashree-Walanj.pdf" download className={styles.btn}>
         Download CV
       </a>
       <a

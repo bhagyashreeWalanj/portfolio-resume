@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './navbar.module.scss'
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineUser, AiOutlineProject } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
 import { RiServiceLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
@@ -22,18 +22,25 @@ const Navbar = () => {
         <AiOutlineUser />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav('#experience')}
-        className={classNames([activeNav === '#experience' ? 'active' : ''])}
+        href="#techstack"
+        onClick={() => setActiveNav('#techstack')}
+        className={classNames([activeNav === '#techstack' ? 'active' : ''])}
       >
         <BiBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav('#services')}
-        className={classNames([activeNav === '#services' ? 'active' : ''])}
+        href="#experience"
+        onClick={() => setActiveNav('#experience')}
+        className={classNames([activeNav === '#experience' ? 'active' : ''])}
       >
         <RiServiceLine />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav('#portfolio')}
+        className={classNames([activeNav === '#portfolio' ? 'active' : ''])}
+      >
+        <AiOutlineProject />
       </a>
       <a
         href="#contact"

@@ -29,7 +29,7 @@ export const Portfolios=[
         title: 'Weather App',
         githubLink:'https://github.com/bhagyashreeWalanj/typescript-weather-app',
         demoLink: 'https://bhagyashree-weather-app.herokuapp.com/',
-        isPublished: true
+        isPublished: false
     },
     {
         id: 5,
@@ -45,6 +45,6 @@ export const Portfolios=[
         title: 'Autocomplete App',
         githubLink:'https://github.com/bhagyashreeWalanj/deel_autocomplete',
         demoLink: 'https://deel-autocomplete.herokuapp.com/',
-        isPublished: true
+        isPublished: false
     }
 ]

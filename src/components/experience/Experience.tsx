@@ -1,130 +1,124 @@
 import React from 'react'
-import styles from './exp.module.scss'
-import { BsPatchCheckFill } from 'react-icons/bs'
+import styles from './experience.module.scss'
+import { BiCheck } from 'react-icons/bi'
 
 const Experience = () => {
   return (
-    <section id="experience" className={styles.experience__section}>
-      <h5>What Skills I Have</h5>
-      <h2>Technical Skills</h2>
+    <section id="experience">
+      <h5>What I Have</h5>
+      <h2>EXPERIENCE</h2>
+
       <div className={styles.experience__container}>
-        <div className={styles.experience__frontend}>
-          <h3>Frontend Development</h3>
-          <div className={styles.experience__content}>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                <h4>HTML5</h4>
-                <small className={styles.text_light}>Experienced</small>
-              </div>
-            </article>
-
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>Javascript</h4>
-                <small className={styles.text_light}>Experienced</small>
-              </div>
-            </article>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>Typescript</h4>
-                <small className={styles.text_light}>Experienced</small>
-              </div>
-            </article>
-
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>Next.js</h4>
-                <small className={styles.text_light}>Intermediate</small>
-              </div>
-            </article>
-
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>ReactJS</h4>
-                <small className={styles.text_light}>Experienced</small>
-              </div>
-            </article>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>Redux Redux-Saga</h4>
-                <small className={styles.text_light}>Experienced</small>
-              </div>
-            </article>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>ES6</h4>
-                <small className={styles.text_light}>Experienced</small>
-              </div>
-            </article>
+        <article className={styles.experience}>
+          <div className={styles.experience__head}>
+            <h4>MYTOYS GROUP</h4>
+            <h3>Frontend Developer</h3>
+            <span>Sept 2022-Present, Germany</span>
           </div>
-        </div>
-        <div className={styles.experience__backend}>
-          <h3>Design Skills</h3>
-          <div className={styles.experience__content}>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>Styled Components</h4>
-                <small className={styles.text_light}>Intermediate</small>
-              </div>
-            </article>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>Tailwind CSS</h4>
-                <small className={styles.text_light}>Intermediate</small>
-              </div>
-            </article>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>SASS</h4>
-                <small className={styles.text_light}>Intermediate</small>
-              </div>
-            </article>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                {' '}
-                <h4>Bootstrap 5</h4>
-                <small className={styles.text_light}>Experienced</small>
-              </div>
-            </article>
+
+          <ul className={styles.experienceList}>
+            <li>
+              <BiCheck size="56" className={styles.experienceListIcon} />
+              <p>
+                Developed and maintained customer-facing web applications using
+                ReactJS and other front-end technologies
+              </p>
+            </li>
+            <li>
+              <BiCheck size="56" className={styles.experienceListIcon} />
+              <p>
+                Collaborated with UX/UI designers to ensure optimal user
+                experience and visual appeal
+              </p>
+            </li>
+            <li>
+              <BiCheck size="56" className={styles.experienceListIcon} />
+              <p>
+                Implemented new features and functionality while adhering to
+                coding standards and best practices{' '}
+              </p>
+            </li>
+          </ul>
+        </article>
+
+        <article className={styles.experience}>
+          <div className={styles.experience__head}>
+            <h4>Autoplant Systems Pvt Ltd</h4>
+            <h3>Senior Software Developer</h3>
+            <span>August 2019-Feb 2021, India</span>
           </div>
-          <h3>Testing Development</h3>
-          <div className={styles.experience__content}>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                <h4>Jest</h4>
-                <small className={styles.text_light}>Intermediate</small>
-              </div>
-            </article>
-            <article className={styles.experience__details}>
-              <BsPatchCheckFill className={styles.experience__details_icon} />
-              <div>
-                <h4>Enzyme</h4>
-                <small className={styles.text_light}>Intermediate</small>
-              </div>
-            </article>
+
+          <ul className={styles.experienceList}>
+            <li>
+              <BiCheck size="70" className={styles.experienceListIcon} />
+              <p>
+                Implemented various screens for the front end using React.js and
+                used various predefined components from NPM and redux library.
+              </p>
+            </li>
+            <li>
+              <BiCheck size="42" />
+              <p>
+                Experience in RESTful web experiences integrated by React-Redux.
+              </p>
+            </li>
+            <li>
+              <BiCheck size="70" className={styles.experienceListIcon} />
+              <p>
+                Experience with handling manual Forms implementation using
+                ReactJS By React-Redux form array Library.{' '}
+              </p>
+            </li>
+            <li>
+              <BiCheck size="70" className={styles.experienceListIcon} />
+              <p>
+                Implemented MapMyIndia maps features on ReactJS components with
+                Real time vehicle tracking.{' '}
+              </p>
+            </li>
+          </ul>
+        </article>
+
+        <article className={styles.experience}>
+          <div className={styles.experience__head}>
+            <h4>Novire Technologies Pvt Ltd</h4>
+            <h3>Senior Software Developer</h3>
+            <span>Sept 2014-August 2019, India</span>
           </div>
-        </div>
+
+          <ul className={styles.experienceList}>
+            <li>
+              <BiCheck size="70" className={styles.experienceListIcon} />
+              <p>
+                {' '}
+                Implementation and delivery of Integrated Vehicle Tracking
+                System ( Experience I.V.T.S ) Project requirements.
+              </p>
+            </li>
+            <li>
+              <BiCheck size="70" className={styles.experienceListIcon} />
+              <p>
+                Handling inbound and outbound integration , both Restful and
+                SOAP experiences.
+              </p>
+            </li>
+
+            <li>
+              <BiCheck size="70" className={styles.experienceListIcon} />
+              <p>
+                Integrated Business Logic Jobs for automated report generation
+                and send data to clients.
+              </p>
+            </li>
+            <li>
+              <BiCheck size="70" className={styles.experienceListIcon} />
+              <p>
+                Helps to track orders in transit, provide route optimization
+                reports, and monitor vehicles inside yards and plants
+              </p>
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   )
