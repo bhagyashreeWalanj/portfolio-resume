@@ -1,8 +1,8 @@
-import React from 'react'
-import styles from './about.module.scss'
-import mePhoto from '../../assets/aboutMe.jpeg'
-import { FaAward } from 'react-icons/fa'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import React from "react";
+import styles from "./about.module.scss";
+import mePhoto from "../../assets/IMBhagyashree.jpeg";
+import { FaAward } from "react-icons/fa";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -65,7 +65,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
